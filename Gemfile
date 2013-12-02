@@ -7,9 +7,10 @@ gem 'sqlite3'
 group :test do
   gem 'capybara'
   gem 'rspec-rails'
-  gem 'capybara-webkit'
+  # gem 'capybara-webkit'
   gem 'database_cleaner'
   gem 'launchy'
+  gem 'selenium-webdriver'
 end
 
 group :assets do
